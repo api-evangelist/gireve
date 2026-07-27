@@ -1,0 +1,26 @@
+# Gireve
+
+> Gireve is a B2B digital platform for electric-vehicle charging and new-mobility services, connecting charge point operators (CPOs), e-mobility service providers (eMSPs), and drivers across Europe. Its interoperability hub powers EV roaming, clearing/transaction settlement, Plug & Charge, smart charging, and mobility data services, with 680,000+ connected charging points and ~1M monthly roaming transactions.
+
+## About
+
+- [Gireve homepage](https://www.gireve.com/): Company overview and solutions.
+- [Solutions](https://www.gireve.com/en/solutions/): Digital platform (EV roaming, clearing, Plug & Charge, Advenir), consulting, and data services.
+- [Connect Place (login)](https://connect-place.gireve.com/login/): B2B platform where connected operators manage roaming agreements and technical integration.
+
+## Integration
+
+- Gireve's roaming and clearing integration is delivered to connected CPOs/eMSPs through the OCPI-based interoperability hub; there is no public, self-serve developer portal or OpenAPI specification. Technical onboarding is handled through Connect Place after a signed agreement.
+
+## Resources
+
+- [Blog](https://www.gireve.com/blog/): News, press releases, AVERE barometer, and roaming coverage updates.
+- [Blog feed](https://www.gireve.com/blog/feed/): RSS feed for the blog.
+- [Downloads](https://www.gireve.com/download/): Whitepapers and publications.
+- [Contact](https://www.gireve.com/contact/): Support and commercial contact.
+
+## Legal
+
+- [Privacy Policy](https://www.gireve.com/privacy-policy/)
+- [Cookie Policy](https://www.gireve.com/cookie-policy/)
+- [Legal Notice](https://www.gireve.com/legal-notice/)

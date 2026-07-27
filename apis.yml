@@ -1,7 +1,13 @@
 aid: gireve
 name: Gireve
-description: 'Gireve is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Climate. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Gireve is a B2B digital platform for electric-vehicle charging and new-mobility
+  services, connecting charge point operators (CPOs), e-mobility service providers (eMSPs),
+  and EV drivers across Europe. Its interoperability hub powers EV charging roaming, clearing
+  and transaction settlement, Plug & Charge, smart charging, and mobility data services,
+  spanning 680,000+ connected charging points and roughly one million monthly roaming
+  transactions across 13,000+ signed agreements. Technical integration is delivered to
+  connected operators over an OCPI-based hub through the Connect Place B2B platform;
+  Gireve does not publish a public self-serve developer portal or OpenAPI specification.'
 url: https://raw.githubusercontent.com/api-evangelist/gireve/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +15,31 @@ x-backed-by:
 - partech
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.gireve.com/wp-content/uploads/2022/06/Gireve_Logos_RVB_Master_Icon_RVB.svg
 tags:
 - Company
 - Climate
+- Electric Vehicles
+- EV Charging
+- Roaming
+- Interoperability
+- Mobility
+- OCPI
+- Energy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +49,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.gireve.com/
+- type: Blog
+  url: https://www.gireve.com/blog/
+- type: BlogRSS
+  url: https://www.gireve.com/blog/feed/
+- type: Login
+  url: https://connect-place.gireve.com/login/
+- type: Support
+  url: https://www.gireve.com/contact/
+- type: TermsOfService
+  url: https://www.gireve.com/legal-notice/
+- type: PrivacyPolicy
+  url: https://www.gireve.com/privacy-policy/
+- type: LLMsTxt
+  url: llms/gireve-llms.txt
+- type: DomainSecurity
+  url: security/gireve-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
